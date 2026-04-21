@@ -1,0 +1,88 @@
+.grid-container {
+    display:grid;
+    background-color: lightgray;
+    font-family:Arial;
+    color:white;
+    font-size:larger;
+    text-align:center;
+    vertical-align:middle;
+    grid-template-columns: 1fr; 
+    grid-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap:10px;
+  
+   
+    
+}
+
+.grid-header {
+    background-color: rgb(159, 32, 99);
+    display: grid;
+    border-radius: 15px;
+    margin:20px 20px 0px 20px;
+   
+
+}
+
+.grid-aside-left {
+    background-color: rgb(25, 93, 183);
+    display: grid;
+    border-radius: 15px;
+    margin:0px 20px 0px 20px;
+    
+  
+}
+
+.grid-article-container {
+    background-color: rgb(82, 243, 141);
+    display: grid;
+    border-radius:15px;
+    margin:0px 20px 0px 20px;
+
+    
+   
+}
+
+.grid-item1 {
+    background-color: rgb(255, 0, 102);
+    display: grid;
+    min-width: 100px;
+    margin: 5px;
+    border-radius: 15px;
+    font-size:smaller;
+    
+}
+
+.grid-item2 {
+    background-color: rgb(255, 0, 102);
+    display: grid;
+    min-width: 100px;
+    margin: 5px;
+    border-radius: 15px;
+    font-size:smaller;
+}
+
+.grid-item3 {
+    background-color: rgb(255, 0, 102);
+    display: grid;
+    min-width: 100px;
+    margin: 5px;
+    border-radius: 15px;
+    font-size:smaller;
+}
+
+.grid-aside-right {
+    background-color: rgb(25, 93, 183);
+    display: grid;
+    border-radius: 15px;
+    margin:0px 20px 0px 20px;
+    
+  
+}
+
+.grid-footer {
+    background-color: rgb(229, 113, 5);
+    display: grid;
+    border-radius: 15px;
+    margin:0px 20px 20px 20px;
+    
+}
