@@ -23,6 +23,12 @@
 
 }
 
+.grid-box {
+    display:grid;
+    background-color: lightgray;
+       
+}
+
 .grid-aside-left {
     background-color: rgb(25, 93, 183);
     display: grid;
@@ -71,7 +77,7 @@
 }
 
 .grid-aside-right {
-    background-color: rgb(25, 93, 183);
+    background-color: rgb(32, 157, 191);
     display: grid;
     border-radius: 15px;
     margin:0px 20px 0px 20px;
@@ -85,4 +91,51 @@
     border-radius: 15px;
     margin:0px 20px 20px 20px;
     
+}
+
+@media all and (min-width: 576px) {
+    .grid-box {
+        grid-template-columns: 1fr 3fr 1fr; 
+        grid-rows: 1fr;
+        height: 200px;       
+      
+    }
+
+    .grid-aside-left {
+        grid-column: 1;
+        align-items: center;
+        margin:0px 00px 0px 20px;
+    }
+
+    .grid-article-container {
+        grid-column: 2;
+        align-items: center;
+    }
+
+    .grid-aside-right {
+        grid-column: 3;
+        align-items: center;
+        margin:0px 20px 0px 00px;
+    }
+
+    .grid-article-container {
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: end;
+    }
+
+    .grid-item1 {
+        height: 100px;
+        align-items: center;
+        
+    }
+
+    .grid-item2 {
+        height: 100px;
+        align-items: center;
+    }
+
+    .grid-item3 {
+        height: 100px;
+        align-items: center;
+    }
 }
